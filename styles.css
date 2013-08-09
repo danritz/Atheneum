@@ -1,56 +1,3 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: inherit;
-	vertical-align: baseline;
-}
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-}
-body {
-	line-height: 1;
-	color: black;
-	background: white;
-}
-ol, ul {
-	list-style: none;
-}
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-}
-caption, th, td {
-	text-align: left;
-	font-weight: normal;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: "";
-}
-blockquote, q {
-	quotes: "" "";
-}
-
-
-/* ========== */
-/* = COMMON = */
-/* ========== */
-
-
 a:link,
 a:visited {
   text-decoration: none;
@@ -69,23 +16,17 @@ img {
 }
 
 p, ul, ol, dl {
-	margin-bottom: 18px;
+	margin-bottom: 1em;
 }
 
 ul {
 	list-style-type: disc;
-	margin-left: 24px;
+	margin-left: 1.5em;
 }
 
 ol {
 	list-style-type: decimal;
-	margin-left: 24px;
-}
-
-blockquote {
-	font-style: italic;
-	padding: 0 24px;
-	background: url(../images/quote.png) no-repeat top left;
+	margin-left: 1.5em;
 }
 
 strong {
@@ -97,8 +38,8 @@ em {
 }
 
 .intro p {
-	font-size: 24px;
-	line-height: 36px;
+	font-size: 2em;
+	line-height: 1.5em;
 	color: #666;
 }
 
@@ -107,114 +48,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { 
-	font-size: 24px;
-	line-height: 36px;
-	margin: 46px 0 0 0;
+	font-size: 2em;
+	line-height: 1.5em;
 }
 
 h2 { 
-	font-size: 36px;
-	line-height: 54px;
-	margin-bottom: 18px;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin-bottom: 1em;
 	border-bottom: 1px solid #ddd;
-	padding: 18px 0;
 }
 
 h3 { 
-	font-size: 12px;
-	line-height: 18px;
+	font-size: 1em;
+	line-height: 1.5em;
 }
-
-form label {
-	display: block;
-}
-
-form fieldset.submit {
-	padding: 9px 0 18px 0;
-}
-
-.video {
-	margin: 0 0 18px 0;
-	padding: 0 0 18px 0;
-	border-bottom: 1px solid #ddd;
-}
-
-
-/* ============= */
-/* = STRUCTURE = */
-/* ============= */
-
 
 body {
 	text-align: center;
-	font-family: Arial, Verdana, Helvetica, Sans-Serif;
-	font-size: 12px;
-	line-height: 18px;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1em;
+	line-height: 1.25em;
 	background-color: #eee;
-}
-
-.container {
-	margin: 0 auto;
-	width: 960px;
-	text-align: left;
-}
-
-.column-full {
-	float: left;
-	width: 100%;
-	clear: both;
-}
-
-.column-twelve,
-.column-eleven,
-.column-ten,
-.column-nine,
-.column-eight,
-.column-seven,
-.column-six,
-.column-five,
-.column-four,
-.column-three,
-.column-two,
-.column-one {
-	float: left;
-	padding: 0 10px;
-}
-
-.column-twelve {width: 940px;}
-.column-eleven {width: 860px;}
-.column-ten {width: 780px;}
-.column-nine {width: 700px;}
-.column-eight {width: 620px;}
-.column-seven {width: 540px;}
-.column-six {width: 460px;}
-.column-five {width: 380px;}
-.column-four {width: 300px;}
-.column-three {width: 220px;}
-.column-two {width: 140px;}
-.column-one {width: 60px;}
-
-
-/* ========= */
-/* = STYLE = */
-/* ========= */
-
-
-#alert {
-	background-color: #666;
-}
-
-#alert p {
-	margin-bottom: 0;
-	color: #ccc;
-	font-weight: bold;
-	font-size: 12px;
-	line-height: 36px;
-	text-align: center;
-}
-
-#alert p a {
-	color: #fff;
 }
 
 #header {
@@ -223,54 +78,20 @@ body {
 	font-weight: bold;
 }
 
-#header .column-full {
-	
-}
 
-#header h1 {
-	padding: 0;
-	margin: 20px 0 0 0;
-}
 
-#header h1 a {
-	display: block;
-	width: 324px;
-	height: 100px;
-	background: #fff url(images/logo.gif) no-repeat top left;
-}
 
-#header h1 a span {
-	display: none;
-}
 
-#header p {
-	padding: 0;
-	margin: 0;
-	display: none;
-}
 
-#header ul {
-	list-style: none;
-	margin: 0 0 18px 0;
-}
 
 #header #companylinks ul {
 	border-top: 5px solid #006699;
 	padding: 18px 0 0 0;
 }
 
-#header #customerlinks ul {
-	border-top: 5px solid #339933;
-	padding: 18px 0 0 0;
-}
-
-#header #customerlinks ul a {
-	color: #339933;
-}
-
 #content {
-	background: #fff url(../images/pattern.png) repeat-x top;
-	padding: 0 0 20px 0;
+	background: #fff url(images/pattern.png) repeat-x top;
+	padding: 0 0 1em 0;
 }
 
 #content ul.subnav {
