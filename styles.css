@@ -1,40 +1,39 @@
 body {
   font-family: Helvetica, Sans-Serif;
-  font-size: 1em;
-  line-height: 1.25em;
-  background-color: #eee;
+  background-color: rgb(240,240,240);
   margin: 0;
 }
 
 a:link,
 a:visited {
   text-decoration: none;
-  color: #006699;
+  color: rgb(0,100,155);
 }
 
 a:hover,
 a:active {
   text-decoration: underline;
-  color: #006699;
+  color: rgb(0,100,155);
 }
 
-img {
-  border: none;
-  display: block;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
+p {
+  font-size: 1em;
+  line-height: 1.25em;
 }
 
 h1 { 
   font-size: 2em;
   line-height: 1.5em;
+  margin: 0;
+  padding: .5em 0;
+  font-weight: bold;
 }
 
 h2 { 
   font-size: 1.5em;
   line-height: 1.5em;
+  font-weight: normal;
+  color: rgb(100,100,100);
 }
 
 h3 { 
@@ -42,3 +41,69 @@ h3 {
   line-height: 1.5em;
 }
 
+#header {
+  background-color: rgb(255,255,255);
+  border-bottom: 1px solid rgb(220,220,220);
+  padding: 1em;
+}
+
+#header .logo img {
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+#header ul {
+  list-style: none;
+  margin: 1em 0 0 0;
+  padding: 1em 0 0 0;
+  font-weight: bold;
+  border-top: 4px solid rgb(0,100,155);
+}
+
+#header ul li a {
+  display: block;
+  padding: .5em 0;
+}
+
+#content {
+  background: rgb(255,255,255) url(images/pattern.png) repeat-x top;
+  border-bottom: 1px solid rgb(220,220,220);
+  padding: 0 1em;
+}
+
+#content .call-to-action {
+  background-color: rgb(245,245,245);
+  background-repeat: no-repeat;
+  background-position: 1em 1em;
+  border: 1px solid rgb(235,235,235);
+  border-radius: .5em;
+  margin-bottom: 1em;
+  padding: .5em 1em .5em 4em;
+}
+
+#content .call-to-action p {
+  color: rgb(155,155,155);
+  margin: .5em 0;
+}
+
+#content .call-to-action p a {
+  font-weight: bold;
+}
+
+#content #cta-learn.call-to-action {
+  background-image: url(images/learn.png);
+}
+
+#content #cta-webinar.call-to-action {
+  background-image: url(images/webinar.png);
+}
+
+#content #cta-newsletter.call-to-action {
+  background-image: url(images/newsletter.png);
+}
+
+#footer {
+  padding: 0 1em;
+  color: rgb(100,100,100);
+}
