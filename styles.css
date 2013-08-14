@@ -47,12 +47,13 @@ h3 {
   border-bottom: 1px solid rgb(220,220,220);
   float: left;
   width: 100%;
+  padding: 1em 0 0 0;
 }
 
 #header .logo img {
   border: none;
   display: block;
-  margin: 1em auto 0 auto;
+  margin: 0 auto;
   width: 80%;
 }
 
