@@ -45,7 +45,8 @@ h3 {
 #header {
   background-color: rgb(255,255,255);
   border-bottom: 1px solid rgb(220,220,220);
-  padding: 1em;
+  float: left;
+  width: 100%;
 }
 
 #header .logo img {
@@ -60,7 +61,26 @@ h3 {
   margin: 1em 0 0 0;
   padding: 1em 0 0 0;
   font-weight: bold;
+}
+
+#header #product-nav,
+#header #company-nav {
+  float: left;
+  width: 50%;
+}
+
+#header #product-nav ul {
   border-top: 4px solid rgb(0,100,155);
+  margin: 1em .5em 1em 1em;
+}
+
+#header #company-nav ul {
+  border-top: 4px solid rgb(50,155,50);
+  margin: 1em 1em 1em .5em;
+}
+
+#header #company-nav a {
+  color: rgb(50,155,50);
 }
 
 #header ul li a {
@@ -72,6 +92,7 @@ h3 {
   background: rgb(255,255,255) url(images/pattern.png) repeat-x top;
   border-bottom: 1px solid rgb(220,220,220);
   padding: 0 1em;
+  clear: both;
 }
 
 #content .call-to-action {
@@ -121,6 +142,22 @@ h3 {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+#content ul.company-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#content ul.company-nav a {
+  color: rgb(50,155,50);
+  display: block;
+  padding: .5em 0;
+}
+
+#content ul.company-nav a.current {
+  font-weight: bold;
 }
 
 #footer {
