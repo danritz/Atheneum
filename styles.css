@@ -19,11 +19,11 @@ a:active {
 
 p {
   font-size: 1em;
-  line-height: 1.25em;
+  line-height: 1.375em;
 }
 
 h1 { 
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.5em;
   margin: 0;
   padding: .5em 0;
@@ -47,7 +47,7 @@ h3 {
   border-bottom: 1px solid rgb(220,220,220);
   float: left;
   width: 100%;
-  padding: 1em 0 0 0;
+  padding: .5em 0 0 0;
 }
 
 #header .logo img {
@@ -97,11 +97,11 @@ h3 {
 }
 
 #content .call-to-action {
+  border: 1px solid rgb(220,220,220);
   background-color: rgb(245,245,245);
   background-repeat: no-repeat;
   background-position: 1em 1em;
-  border: 1px solid rgb(235,235,235);
-  border-radius: .5em;
+  border-radius: .25em;
   margin-bottom: 1em;
   padding: .5em 1em .5em 4em;
 }
@@ -125,6 +125,10 @@ h3 {
 
 #content #cta-newsletter.call-to-action {
   background-image: url(images/newsletter.png);
+}
+
+#content #cta-download.call-to-action {
+  background-image: url(images/file_extension_pdf.png);
 }
 
 #content .video-container {
@@ -159,6 +163,18 @@ h3 {
 
 #content ul.company-nav a.current {
   font-weight: bold;
+}
+
+#content .photo-wrapper {
+  border: 1px solid rgb(220,220,220);
+  background-color: rgb(245,245,245);
+  padding: 0.5em;
+  border-radius: .25em;
+}
+
+#content .photo-wrapper img {
+  display: block;
+  width: 100%;
 }
 
 #footer {
