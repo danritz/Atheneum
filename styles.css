@@ -149,19 +149,19 @@ h3 {
   height: 100%;
 }
 
-#content ul.company-nav {
+#content ul.internal-nav {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-#content ul.company-nav a {
+#content ul.internal-nav a {
   color: rgb(50,155,50);
   display: block;
   padding: .5em 0;
 }
 
-#content ul.company-nav a.current {
+#content ul.internal-nav a.current {
   font-weight: bold;
 }
 
