@@ -2,6 +2,7 @@ body {
   -webkit-text-size-adjust: 100%;
   font-family: Helvetica, Sans-Serif;
   background-color: rgb(240,240,240);
+  color: rgb(50,50,50);
   margin: 0;
 }
 
@@ -29,13 +30,15 @@ h1 {
   margin: 0;
   padding: .5em 0;
   font-weight: bold;
+  border-bottom: 1px solid rgb(220,220,220);
 }
 
 h2 { 
   font-size: 1.5em;
   line-height: 1.5em;
+  margin: 0;
+  padding: .5em 0;
   font-weight: normal;
-  color: rgb(100,100,100);
 }
 
 h3 { 
@@ -56,8 +59,8 @@ h3 {
 .product-nav ul,
 .company-nav ul {
   list-style: none;
-  margin: 1em 0 0 0;
-  padding: 1em 0 0 0;
+  margin: 0;
+  padding: .5em 0;
   font-weight: bold;
 }
 
@@ -68,27 +71,19 @@ h3 {
 }
 
 .company-nav ul li.jump-to-top a {
-  color: rgb(155,155,155);
+  color: rgb(100,100,100);
 }
 
 .product-nav ul {
   border-top: 4px solid rgb(0,100,155);
-  margin: 0 0 1em 0;
 }
 
 .company-nav ul {
   border-top: 4px solid rgb(50,155,50);
-  margin: 0 0 1em 0;
 }
 
 .company-nav a {
   color: rgb(50,155,50);
-}
-
-#footer-nav {
-  clear: both;
-  float:left;
-  width: 100%;
 }
 
 
@@ -106,11 +101,12 @@ h3 {
   width: 70%;
 }
 
-#header-small .logo div {
+#header-small .logo a {
+  display: block;
   padding: 1em;
 }
 
-#header-small .logo div img {
+#header-small .logo a img {
   display: block;
   height: 3em;
   border: 1px solid rgb(255,255,255);
@@ -165,12 +161,12 @@ h3 {
   background-position: 1em 1em;
   border-radius: .25em;
   margin-bottom: 1em;
-  padding: .5em 1em .5em 4em;
+  padding: 1em 1em 1em 4em;
 }
 
 #content .call-to-action p {
   color: rgb(155,155,155);
-  margin: .5em 0;
+  margin: 0;
 }
 
 #content .call-to-action p a {
@@ -220,14 +216,13 @@ h3 {
 
 
 ul#internal-nav {
-  border-bottom: 1px solid rgb(220,220,220);
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 ul#internal-nav li {
-  border-top: 1px solid rgb(220,220,220);
+  border-bottom: 1px solid rgb(220,220,220);
 }
 
 ul#internal-nav a {
@@ -264,11 +259,17 @@ ul#internal-nav.company-related a {
 /* Footer */
 
 
+#footer-nav {
+  clear: both;
+  float:left;
+  width: 100%;
+}
+
 #footer {
   clear: both;
   padding: 1em;
   border-top: 1px solid rgb(220,220,220);
-  color: rgb(100,100,100);
+  color: rgb(155,155,155);
 }
 
 #footer p {
