@@ -20,6 +20,7 @@ a:active {
 p {
   font-size: 1em;
   line-height: 1.375em;
+  margin: 0 0 1em 0;
 }
 
 h1 { 
@@ -42,6 +43,92 @@ h3 {
   line-height: 1.5em;
 }
 
+
+/* Navigation */
+
+
+#footer-nav {
+  clear: both;
+  float:left;
+  width: 100%;
+  border-bottom: 1px solid rgb(220,220,220);
+}
+
+.product-nav,
+.company-nav {
+  float: left;
+  width: 50%;
+}
+
+.product-nav ul,
+.company-nav ul {
+  list-style: none;
+  margin: 1em 0 0 0;
+  padding: 1em 0 0 0;
+  font-weight: bold;
+}
+
+.product-nav ul a,
+.company-nav ul a {
+  display: block;
+  padding: .5em 1em;
+}
+
+.company-nav ul li.jump-to-top a {
+  color: rgb(155,155,155);
+}
+
+.product-nav ul {
+  border-top: 4px solid rgb(0,100,155);
+  margin: 0 0 1em 0;
+}
+
+.company-nav ul {
+  border-top: 4px solid rgb(50,155,50);
+  margin: 0 0 1em 0;
+}
+
+.company-nav a {
+  color: rgb(50,155,50);
+}
+
+
+/* Header Small */
+
+
+#header-small {
+  background-color: rgb(255,255,255);
+  float: left;
+  width: 100%;
+}
+
+#header-small .logo {
+  float: left;
+  width: 60%;
+}
+
+#header-small .logo .logo-wrapper {
+  padding: 1em;
+}
+
+#header-small .logo .logo-wrapper img {
+  display: block;
+  width: 100%;
+}
+
+#header-small .menu {
+  float: left;
+  width: 40%;
+}
+
+
+/* Header Large */
+
+
+#header-large {
+  display: none;
+}
+
 #header {
   background-color: rgb(255,255,255);
   border-bottom: 1px solid rgb(220,220,220);
@@ -57,40 +144,9 @@ h3 {
   width: 80%;
 }
 
-#header ul {
-  list-style: none;
-  margin: 1em 0 0 0;
-  padding: 1em 0 0 0;
-  font-weight: bold;
-}
-
-#header #product-nav,
-#header #company-nav {
-  float: left;
-  width: 50%;
-}
-
-#header #product-nav ul {
-  border-top: 4px solid rgb(0,100,155);
-  margin: 1em .5em 1em 1em;
-}
-
-#header #company-nav ul {
-  border-top: 4px solid rgb(50,155,50);
-  margin: 1em 1em 1em .5em;
-}
-
-#header #company-nav a {
-  color: rgb(50,155,50);
-}
-
-#header ul li a {
-  display: block;
-  padding: .5em 0;
-}
-
 #content {
   background: rgb(255,255,255) url(images/pattern.png) repeat-x top;
+  border-top: 1px solid rgb(220,220,220);
   border-bottom: 1px solid rgb(220,220,220);
   padding: 0 1em;
   clear: both;
@@ -178,6 +234,11 @@ h3 {
 }
 
 #footer {
-  padding: 0 1em;
+  clear: both;
+  padding: 1em;
   color: rgb(100,100,100);
+}
+
+#footer p {
+  margin: 0;
 }
