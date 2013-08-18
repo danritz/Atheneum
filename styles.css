@@ -44,14 +44,8 @@ h3 {
 }
 
 
-/* Navigation */
+/* Basic Navigation */
 
-
-#footer-nav {
-  clear: both;
-  float:left;
-  width: 100%;
-}
 
 .product-nav,
 .company-nav {
@@ -89,6 +83,12 @@ h3 {
 
 .company-nav a {
   color: rgb(50,155,50);
+}
+
+#footer-nav {
+  clear: both;
+  float:left;
+  width: 100%;
 }
 
 
@@ -141,20 +141,10 @@ h3 {
   display: none;
 }
 
-#header {
-  background-color: rgb(255,255,255);
-  border-bottom: 1px solid rgb(220,220,220);
-  float: left;
-  width: 100%;
-  padding: .5em 0 0 0;
-}
 
-#header .logo img {
-  border: none;
-  display: block;
-  margin: 0 auto;
-  width: 80%;
-}
+/* Content */
+
+
 
 #content {
   background: rgb(255,255,255) url(images/pattern.png) repeat-x top;
@@ -163,6 +153,10 @@ h3 {
   padding: 0 1em;
   clear: both;
 }
+
+
+/* Calls-to-action */
+
 
 #content .call-to-action {
   border: 1px solid rgb(220,220,220);
@@ -199,6 +193,10 @@ h3 {
   background-image: url(images/file_extension_pdf.png);
 }
 
+
+/* Videos */
+
+
 #content .video-container {
   position: relative;
   padding-bottom: 60%;
@@ -217,26 +215,43 @@ h3 {
   height: 100%;
 }
 
-#content ul.internal-nav {
+
+/* Internal Navigation */
+
+
+ul#internal-nav {
+  border-bottom: 1px solid rgb(220,220,220);
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-#content ul.internal-nav a {
-  color: rgb(50,155,50);
+ul#internal-nav li {
+  border-top: 1px solid rgb(220,220,220);
+}
+
+ul#internal-nav a {
   display: block;
   padding: .5em 0;
 }
 
-#content ul.internal-nav a.current {
+ul#internal-nav a.current {
   font-weight: bold;
 }
+
+ul#internal-nav.company-related a {
+  color: rgb(50,155,50);
+}
+
+
+/* Photos */
+
 
 #content .photo-wrapper {
   border: 1px solid rgb(220,220,220);
   background-color: rgb(245,245,245);
   padding: 0.5em;
+  margin: 0 0 1em 0;
   border-radius: .25em;
 }
 
@@ -244,6 +259,10 @@ h3 {
   display: block;
   width: 100%;
 }
+
+
+/* Footer */
+
 
 #footer {
   clear: both;
