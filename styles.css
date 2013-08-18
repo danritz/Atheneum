@@ -51,7 +51,6 @@ h3 {
   clear: both;
   float:left;
   width: 100%;
-  border-bottom: 1px solid rgb(220,220,220);
 }
 
 .product-nav,
@@ -104,7 +103,7 @@ h3 {
 
 #header-small .logo {
   float: left;
-  width: 65%;
+  width: 70%;
 }
 
 #header-small .logo div {
@@ -113,13 +112,13 @@ h3 {
 
 #header-small .logo div img {
   display: block;
-  height: 4em;
+  height: 3em;
   border: 1px solid rgb(255,255,255);
 }
 
 #header-small .menu {
   float: left;
-  width: 35%;
+  width: 30%;
 }
 
 #header-small .menu a {
@@ -129,10 +128,8 @@ h3 {
   border: 1px solid rgb(220,220,220);
   background-color: rgb(245,245,245);
   border-radius: .25em;
-  padding: 1em;
+  padding: .5em;
   color: rgb(100,100,100);
-  text-transform: uppercase;
-  font-weight: bold;
   line-height: 1em;
 }
 
@@ -162,7 +159,7 @@ h3 {
 #content {
   background: rgb(255,255,255) url(images/pattern.png) repeat-x top;
   border-top: 1px solid rgb(220,220,220);
-  border-bottom: 1px solid rgb(220,220,220);
+  border-bottom: 1px solid rgb(255,255,255);
   padding: 0 1em;
   clear: both;
 }
@@ -251,6 +248,7 @@ h3 {
 #footer {
   clear: both;
   padding: 1em;
+  border-top: 1px solid rgb(220,220,220);
   color: rgb(100,100,100);
 }
 
